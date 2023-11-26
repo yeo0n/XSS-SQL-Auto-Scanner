@@ -1,1 +1,1 @@
-# Web-vulnerability-analysis-tool
+# XSS-SQL-Auto-Scanner
