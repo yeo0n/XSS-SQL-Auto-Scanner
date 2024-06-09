@@ -77,7 +77,7 @@ while(True):
             num1()
             print("")
             xy = input("보고서를 생성하시겠습니까? (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = load_data_from_file('url.json') # url.json 파일에서 도메인 읽어오기
                 collectVul = ["Reflected XSS"]
                 RXSS = load_data_from_file('rxss_data.json')
@@ -88,7 +88,7 @@ while(True):
             num2()
             print("")
             xy = input("보고서를 생성하시겠습니까? (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = load_data_from_file('url.json') # url.json 파일에서 도메인 읽어오기
                 collectVul = ["Stored XSS"]
                 RXSS = []
@@ -100,7 +100,7 @@ while(True):
             num3()
             print("")
             xy = input("보고서를 생성하시겠습니까? (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = load_data_from_file('url.json') # url.json 파일에서 도메인 읽어오기
                 collectVul = ["DOM XSS"]
                 RXSS = []
@@ -113,7 +113,7 @@ while(True):
             num4()
             print("")
             xy = input("보고서를 생성하시겠습니까? (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = input("점검하신 도메인을 입력하세요: ")
                 collectVul = ["Normal SQLi"]
                 RXSS = []
@@ -127,7 +127,7 @@ while(True):
             num5()
             print("")
             xy = input("보고서를 생성하시겠습니까? (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = input("점검하신 도메인을 입력하세요: ")
                 collectVul = ["Blind SQLi"]
                 RXSS = []
@@ -144,7 +144,7 @@ while(True):
             num2()
             print("")
             xy = input("보고서를 생성하시겠습니까? (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = load_data_from_file('url.json') # url.json 파일에서 도메인 읽어오기
                 collectVul = ["Reflected XSS", "Stored XSS", "DOM XSS"]
                 RXSS = load_data_from_file('rxss_data.json')
@@ -158,7 +158,7 @@ while(True):
             num5()
             print("")
             xy = input("보고서를 생성하시겠습니까?: (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = input("점검하신 도메인을 입력하세요: ")
                 collectVul = ["Normal SQLi", "Blind SQLi"]
                 RXSS = []
@@ -177,7 +177,7 @@ while(True):
             num5()
             print("")
             xy = input("보고서를 생성하시겠습니까?: (Y/y, N/n): ")
-            if xy == "Y" or "y":
+            if xy == "Y" or xy=="y":
                 inputURL = load_data_from_file('url.json') # url.json 파일에서 도메인 읽어오기
                 collectVul = ["Reflected XSS", "Stored XSS", "DOM XSS", "Normal SQLi", "Blind SQLi"]
                 RXSS = load_data_from_file('rxss_data.json')
